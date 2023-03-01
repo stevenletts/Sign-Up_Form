@@ -47,7 +47,7 @@ body {
 
 .sign-up{
     display: flex;
-    background-color: rgb(23, 21, 21);
+    background-color: rgb(31, 39, 41);
     color: whitesmoke;
     flex-direction: column;
     justify-content: center;
@@ -68,7 +68,7 @@ body {
 .inputs-section {
     color: black;
     margin-left: 0px;
-    background-color: white;
+    background-color: rgb(81, 100, 106);
     margin-top: 32px;
     padding-top: 16px;
     padding-bottom: 16px;
@@ -80,6 +80,7 @@ body {
     font-size: 0.7rem;
     letter-spacing: 0.1rem;
     margin-bottom: 5px;
+    font-weight: bold;
 }
   
 .inputs-section input {
@@ -90,6 +91,7 @@ body {
     width: 100%;
     font-size: 1rem;
     margin-right: 32px;
+    background-color: rgb(47, 60, 66);
 }
   
 .inputs-section h3 {
