@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-Up Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="hero-left">
+            <div class="title">
+                <img src="./images/odinlogo.png" alt="odin stencil logo">
+                <p>Join Valhalla</p>
+            </div>
+            <p id="source">Photo by Sergio Ibannez on Unsplash</p>
+        </div>
+        <div class="sign-up">
+            <p>
+                You have been <em>invited</em> to register your interest in joining Valhalla, 
+                pending satisfactory completion of the requirements. 
+            </p>
+            <p>
+                Will <em>you</em> do it?
+            </p>
+            <form action="">
+                <div class="inputs-section">
+                    <h3>Let's do this!</h3>
+                    <div class="inputs">
+                        <div>
+                            <div>
+                                <label for="first-name">First Name</label>
+                                <input type="text" id="first-name" name="first-name">
+                            </div>
+                            <div>
+                                <label for="last-name">Last Name</label>
+                                <input type="text" id="last-name" name="last-name">
+                            </div>
+                        </div>
+                        <div>
+                            <div>
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email">
+                            </div>
+                            <div>
+                                <label for="phone-number">Phone Number</label>
+                                <input type="tel" id="phone-number" name="phone-number">
+                            </div>
+                        </div>
+                        <div>
+                            <div>
+                                <label for="password">Password</label>
+                                <input type="password" class="error" id="password" name="password">
+                            </div>
+                            <div>
+                                <label for="confirm-password">Confirm Password</label>
+                                <input type="password" class="error" id="confirm-password" name="confirm-password">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button type="submit" id="create-account">Create Account</button>
+            </form>
+            <p id="log-in">Already have an account? <a href="#">Log in</a></p>
+        </div>
+    </div>
+</body>
+</html>

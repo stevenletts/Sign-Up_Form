@@ -1,0 +1,149 @@
+@font-face {
+    font-family: "Norse Bold";
+    src: url("./font/Norse-Bold.otf");
+  }
+
+body {
+    margin: 0px;
+    background-color: #f9fafb;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+}
+
+.hero-left {
+    width: 45vw;
+    height: 100vh;
+    background-image: url(images/background.jpg) ;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hero-left img{
+    width: 5rem;
+    height: 6rem;
+    padding: 10px;
+}
+
+.title{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin-top: 15vh;
+    font-size: 3rem;
+    font-family: "Norse Bold";
+}
+
+#source {
+    font-size: 0.75rem;
+    color: white;
+}
+
+.sign-up{
+    display: flex;
+    background-color: rgb(23, 21, 21);
+    color: whitesmoke;
+    flex-direction: column;
+    justify-content: center;
+} 
+
+.sign-up>p{
+    font-size: 1.4rem;
+    font-weight: bold;
+    max-width: 60%;
+    margin-bottom: 8px;
+    margin-left: 48px;
+}
+
+.sign-up> div{
+    margin-left: 48px;
+}
+
+.inputs-section {
+    color: black;
+    margin-left: 0px;
+    background-color: white;
+    margin-top: 32px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 48px;
+    box-shadow: 0 5px 5px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+.inputs-section label {
+    font-size: 0.7rem;
+    letter-spacing: 0.1rem;
+    margin-bottom: 5px;
+}
+  
+.inputs-section input {
+    box-sizing: border-box;
+    border: 1px solid #e5e7eb;
+    border-radius: 4px;
+    padding: 4px 8px;
+    width: 100%;
+    font-size: 1rem;
+    margin-right: 32px;
+}
+  
+.inputs-section h3 {
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+  
+.inputs > div {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 84px;
+    row-gap: 18px;
+    margin-bottom: 18px;
+}
+  
+.inputs label {
+    display: block;
+}
+  
+input.focus {
+    border: 1px solid blue;
+    box-shadow: 2px 1px 2px 2px rgba(0, 0, 0, 0.1);
+}
+  
+input.error {
+    border: 1px solid red;
+}
+  
+#create-account {
+    margin-left: 48px;
+    margin-top: 32px;
+    border: none;
+    background-color: #7eb450;
+    padding: 12px 48px;
+    border-radius: 8px;
+    box-shadow: 2px 5px 5px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    color: white;
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+  
+p.log-in {
+    font-weight: 400;
+    font-size: 1rem;
+    margin-top: 32px;
+}
+  
+.log-in a {
+    color: #596D48;
+    font-weight: bold;
+    text-decoration: none;
+}
+  
+  
